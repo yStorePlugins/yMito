@@ -32,8 +32,9 @@ main:
   name: '&8Mito'
   size: 27
   items:
-    player-slot: 12
-    top-slot: 14
+    player-slot: 11
+    top-slot: 13
+    missions-slot: 15
     player-none:
       material: 'BARRIER'
       name: '&cNenhum'
@@ -56,6 +57,14 @@ main:
       lore:
         - '&7Veja os jogadores que mais'
         - '&7destacaram no servidor.'
+        - ''
+        - '&aClique para abrir'
+    missions:
+      material: 'NETHER_STAR'
+      name: '&e&lMISSÕES'
+      lore:
+        - '&7Veja as recompensas que você'
+        - '&7ganhará por ser mito no servidor.'
         - ''
         - '&aClique para abrir'
 
@@ -103,3 +112,12 @@ top:
         - '&fVezes: &7{amount}'
         - '&fPosição: &e{pos}º'
         - ''
+
+# Menu de missões
+missions:
+  name: '&8Mito'
+  size: 36
+  slots: [ 10, 11, 12, 13, 14, 15, 16 ]
+  back-slot: 30
+  previous-slot: 9
+  next-slot: 17
